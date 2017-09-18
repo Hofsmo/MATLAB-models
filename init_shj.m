@@ -3,7 +3,7 @@ PID_parameters;
 Ysp=0;
 backlash=0;
 Ty = 0.2;
-Tw = 1.2;
+Tw = 1.2/2;
 Tw2 = Tw;
 Tdel=0;
 A = 100;
@@ -29,8 +29,8 @@ Ub = 400;
 k = M1/S_base*Ub^2/Um^2;
 k2 = M1/S_base*Ub^2/Um^2;
 
-x1 = 0.05;
-x2 = 0.05;
+x1 = 50;
+x2 = 50;
 xd1 = 0.2*k;
 xd2 = 0.2*k2/A;
 
